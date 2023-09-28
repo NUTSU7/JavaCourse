@@ -1,7 +1,7 @@
 import automobil.Automobil;
 import person.Person;
 
-public class Main {
+public class l {
 
     public static void main(String[] args) {
         System.out.println("Hello");

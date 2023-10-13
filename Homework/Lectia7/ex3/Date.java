@@ -23,10 +23,10 @@ public class Date {
             if (year % 4 != 0) {
                 if ((x > 0) && (x <= 28))
                     return true;
-                return false;
             }
-            if ((x > 0) && (x <= 29))
-                return true;
+            else
+                if ((x > 0) && (x <= 29))
+                    return true;
             return false;
         }
 

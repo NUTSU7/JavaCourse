@@ -1,10 +1,6 @@
 package Shapes;
 
 public class Sphere extends ThreeDimensionalShape{
-    double lenght;
-    public Sphere() {
-    }
-
     public Sphere(double lenght) {
         super(lenght);
         if(lenght>0) this.lenght = lenght;

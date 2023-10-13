@@ -1,13 +1,9 @@
 package Shapes;
 
 public abstract class TwoDimensionalShape extends Shape {
-    double lenght;
-
-    public TwoDimensionalShape() {
-        
-    }
 
     public TwoDimensionalShape(double lenght) {
+        super(lenght);
         if(lenght>0) this.lenght = lenght;
     }
 
